@@ -1,6 +1,5 @@
 import IconButton from '../Buttons/IconButton';
 import TextButton from '../Buttons/TextButton';
-import ProfileDropDown from '../ProfileDropDown';
 import TopBarActions from '../TopBarActions';
 
 import { BsTrash, BsMagic } from 'react-icons/bs';
