@@ -2,7 +2,6 @@ import SideBar from '../../components/Sidebar';
 import TopBar from '../../components/TopBar';
 import SourceLangEditor from '../../components/SourceLangEditor';
 import TargetLangEditor from '../../components/TargetLangEditor';
-import FloatingActionBar from '../../components/FloatingActionBar';
 
 import { useEffect } from 'react';
 
