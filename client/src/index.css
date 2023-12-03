@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .custom-scrollbar::-webkit-scrollbar {
+    @apply w-0;
+  }
+  .custom-border {
+    @apply border-border_color_light dark:border-border_color_dark;
+  }
+
+  .custom-text {
+    @apply font-semibold text-text_color_light dark:text-text_color_dark;
+  }
+
+  .custom-bg {
+    @apply bg-secondary_color_light dark:bg-secondary_color_dark;
+  }
+
+  .base-btn {
+    @apply cursor-pointer rounded-lg bg-btn_color_light font-medium  text-text_color_light duration-300 hover:bg-btn_hover_color_light dark:bg-btn_color_dark dark:text-text_color_dark dark:hover:bg-btn_hover_color_dark;
+  }
+}

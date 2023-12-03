@@ -1,0 +1,27 @@
+# Dependency directories
+/node_modules
+/client/node_modules
+/server/node_modules
+
+# Build output
+/build
+
+# Environment variables
+.env
+
+# Log files
+*.log
+
+# IDE and editor files
+.idea/
+.vscode/
+
+# Compiled output (for client-side JavaScript)
+/public/bundle.js
+
+# Testing files
+/coverage
+
+# OS generated files
+.DS_Store
+Thumbs.db
