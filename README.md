@@ -1,6 +1,6 @@
 # **AI Code Converter**
 
-![Screensot of the app](https://drive.google.com/file/d/1E6juR_9WuKHljdaM-kn_lIt_8Q5DVa23/view)
+![Screensot of the app](https://github.com/Louai-Zokerburg/AI-Code-Converter/blob/dev/project-screenshot-img.png?raw=true)
 
 ## **Live Demo**
 
