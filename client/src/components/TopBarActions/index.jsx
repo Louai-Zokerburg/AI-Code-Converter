@@ -6,9 +6,9 @@ import {
   MdLogout,
 } from 'react-icons/md';
 import { HiOutlineCode } from 'react-icons/hi';
-import { BsTrash } from 'react-icons/bs';
 
 import { useStore } from '../../context/store';
+import { projectGithubRepoLink } from '../../constants';
 
 const index = () => {
   const toggleTheme = useStore((state) => state.toggleTheme);
@@ -20,7 +20,7 @@ const index = () => {
     <div className='ml-auto flex items-center justify-center gap-x-2'>
       <IconButton
         icon={<HiOutlineCode />}
-        handleClick={() => console.log('source code')}
+        handleClick={() => window.open(projectGithubRepoLink, '_blank')}
       />
       <IconButton
         icon={theme === 'dark' ? <MdOutlineLightMode /> : <MdOutlineDarkMode />}
