@@ -5,7 +5,7 @@ const index = ({ children }) => {
   const auth = useStore((state) => state.auth);
 
   if (!auth.user) {
-    return <Navigate to='/auth' />;
+    return <Navigate to='/' />;
   }
 
   return children;
