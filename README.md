@@ -4,7 +4,7 @@
 
 ## **Live Demo**
 
-Check out the live demo **[here](https://chat.openai.com/c/5e375b88-3120-40e4-9dee-15a907e0fbf8#)**
+Check out the live demo **[here](https://ai-code-converter-client.vercel.app/)**
 
 ## **Description**
 
