@@ -1,6 +1,6 @@
 # **AI Code Converter**
 
-![Screensot of the app](https://github.com/Louai-Zokerburg/AI-Code-Converter/blob/dev/project-screenshot-img.png?raw=true)
+![Screensot of the app](https://github.com/Louai-Zokerburg/AI-Code-Converter/blob/dev/project-cover.png?raw=true)
 
 ## **Live Demo**
 
@@ -39,54 +39,54 @@ Follow these steps to set up AI Code Converter on your local machine.
 ### **Installation**
 
 1. Clone the repository:
-    
-    ```bash
-    git clone https://github.com/Louai-Zokerburg/AI-Code-Converter.git
-    ```
-    
+
+   ```bash
+   git clone https://github.com/Louai-Zokerburg/AI-Code-Converter.git
+   ```
+
 2. Navigate to the project directory:
-    
-    ```bash
-    cd AI-Code-Converter
-    ```
-    
+
+   ```bash
+   cd AI-Code-Converter
+   ```
+
 3. Install server dependencies:
-    
-    ```bash
-    npm install
-    ```
-    
+
+   ```bash
+   npm install
+   ```
+
 4. Navigate to the client directory and install client dependencies:
-    
-    ```bash
-    cd client
-    npm install
-    ```
-    
+
+   ```bash
+   cd client
+   npm install
+   ```
+
 5. Create a **`.env`** file in the root directory and add the following:
-    
-    ```
-    MONGO_URI=
-    JWT_SECRET=
-    JWT_LIFETIME=
-    OPENAI_API_KE=
-    ```
-    
-    Replace **`your_chatgpt_api_key`** with your actual ChatGPT API key.
-    
+
+   ```
+   MONGO_URI=
+   JWT_SECRET=
+   JWT_LIFETIME=
+   OPENAI_API_KE=
+   ```
+
+   Replace **`your_chatgpt_api_key`** with your actual ChatGPT API key.
+
 6. Run the server:
-    
-    ```bash
-    npm start
-    ```
-    
+
+   ```bash
+   npm start
+   ```
+
 7. Navigate the client and start the dev server
-    
-    ```bash
-    cd client
-    npm run dev
-    ```
-    
+
+   ```bash
+   cd client
+   npm run dev
+   ```
+
 8. Access the application in your browser at **`http://localhost:5173`**.
 
 ## **Usage**
